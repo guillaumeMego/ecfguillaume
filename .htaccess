@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Rediriger toutes les requêtes vers le fichier index.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Exiger une authentification basique pour accéder au site
+#AuthType Basic
+#AuthName "Accès restreint"
+#AuthUserFile /chemin/vers/le/fichier/.htpasswd
+#Require valid-user
