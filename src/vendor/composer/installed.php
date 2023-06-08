@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => 'dev-main',
-        'version' => 'dev-main',
-        'reference' => '12928f838315502f9d51c39704a7e3da998be154',
+        'pretty_version' => 'dev-vue',
+        'version' => 'dev-vue',
+        'reference' => '3ce4c211c057304343d780a5cb9e5ab66a6874dc',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => '12928f838315502f9d51c39704a7e3da998be154',
+            'pretty_version' => 'dev-vue',
+            'version' => 'dev-vue',
+            'reference' => '3ce4c211c057304343d780a5cb9e5ab66a6874dc',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

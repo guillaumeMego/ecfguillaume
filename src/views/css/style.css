@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: Roboto !important;
+}
+
+a{
+    color: #B5752B !important;
+}
+
+a:hover{
+    color: #195E7B !important;
+}
+button{
+    background-color: #B5752B !important;
+    color: white !important;
+}
+button:hover{
+    background-color:  #195E7B !important;
+}
+
+.form-control:focus {
+    border-color: #195E7B !important;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 255, 0.25);
+}
+
+.annuler:hover{
+   color: #8C4B00 !important;
+}
