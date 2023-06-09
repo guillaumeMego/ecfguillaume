@@ -1,0 +1,61 @@
+/* Essentielletn mobile */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@media screen and (max-width: 600px) {
+    body{
+       background-color: #1C2833;
+    
+    font-family: Merriweather;
+    }
+    h1{
+        text-align: center;
+        font-size: 2em;
+        margin-top: 45px;
+        font-family: Merriweather, Courier, monospace;
+        color: #FDFEFE;
+    }
+    h2{
+        position: relative;
+        top: 40px;
+        font-size: 1.5em;
+        margin-top: 45px;
+        font-family: Merriweather, Courier, monospace;
+        color: #FDFEFE;
+    }
+    form{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    form select{
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+        font-family: Merriweather, Courier, monospace;
+    }
+  
+    
+    form select option{
+        font-size: 1.2em;
+        font-family: Merriweather, Courier, monospace;
+    }
+    
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    #result{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+    }
+
+}
+    

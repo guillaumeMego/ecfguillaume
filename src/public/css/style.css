@@ -21,7 +21,7 @@ button:hover{
 
 .form-control:focus {
     border-color: #195E7B !important;
-    box-shadow: 0 0 0 0.2rem rgba(0, 0, 255, 0.25);
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 255, 0.25) !important;
 }
 
 .annuler:hover{

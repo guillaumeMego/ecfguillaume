@@ -1,6 +1,7 @@
 <?php
 
 use Classes\Controllers\BrandController;
+use Classes\Controllers\ApiController;
 
 $router = new AltoRouter();
 
@@ -11,6 +12,10 @@ $router->map( 'GET', '/marques', function() {
 
 $router->map( 'GET', '/marques/add', function() {
     (new BrandController())->add();
+});
+
+$router->map( 'GET', '/marques/api', function() {
+    (new ApiController())->getBrands();
 });
 
 $match = $router->match();

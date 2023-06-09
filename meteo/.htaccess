@@ -1,0 +1,10 @@
+# autoriser tout les droit 
+Options +Indexes
+
+
+# Options: +FollowSymLinks
+RewriteEngine On
+
+# Force https
+RewriteCond % { HTTPS } off
+RewriteRule(.*) https://%{HTTP_HOST}%{REQUEST_URI} [R = 301, L]

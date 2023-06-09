@@ -47,37 +47,37 @@ class BrandManager{
             [
                 'id' => '1',
                 'name' => 'Fender',
-                'update' => '01-01-2020'
+                'update' => '01-04-2023'
             ],
             [
                 'id' => '2',
                 'name' => 'Gibson',
-                'update' => '01-01-2020'
+                'update' => '05-01-2019'
             ],
             [
                 'id' => '3',
                 'name' => 'Ibanez',
-                'update' => '01-01-2020'
+                'update' => '01-01-2016'
             ],
             [
                 'id' => '4',
                 'name' => 'Epiphone',
-                'update' => '01-01-2020'
+                'update' => '01-12-1998'
             ],
             [
                 'id' => '5',
                 'name' => 'Jackson',
-                'update' => '01-01-2020'
+                'update' => '04-07-2002'
             ],
             [
                 'id' => '6',
                 'name' => 'Charvel',
-                'update' => '01-01-2020'
+                'update' => '01-04-2003'
             ],
             [
                 'id' => '7',
                 'name' => 'ESP',
-                'update' => '01-01-2020'
+                'update' => '01-01-2004'
             ],
             [
                 'id' => '8',
@@ -87,37 +87,37 @@ class BrandManager{
             [
                 'id' => '9',
                 'name' => 'Schecter',
-                'update' => '01-01-2020'
+                'update' => '07-01-2020'
             ],
             [
                 'id' => '10',
                 'name' => 'Squier',
-                'update' => '01-01-2020'
+                'update' => '02-11-2017'
             ],
             [
                 'id' => '11',
                 'name' => 'Gretsch',
-                'update' => '01-01-2020'
+                'update' => '08-18-2002'
             ],
             [
                 'id' => '12',
                 'name' => 'Guild',
-                'update' => '01-01-2020'
+                'update' => '01-18-2022'
             ],
             [
                 'id' => '13',
                 'name' => 'Martin',
-                'update' => '01-01-2020'
+                'update' => '09-06-2020'
             ],
             [
                 'id' => '14',
                 'name' => 'Taylor',
-                'update' => '01-01-2020'
+                'update' => '10-01-2000'
             ],
             [
                 'id' => '15',
                 'name' => 'Yamaha',
-                'update' => '01-01-2020'
+                'update' => '12-24-2004'
             ]
         ];
         return $datas;
